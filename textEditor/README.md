@@ -33,3 +33,15 @@ This is a simple text editor application built using Java Swing. It provides bas
 
     ```sh
     java texteditor.TextEditor
+    ```
+
+## File Structure
+
+The project contains a single Java file:
+
+- `TextEditor.java`: The main file containing the implementation of the text editor.
+
+## Code Explanation
+
+The `TextEditor` class extends `JFrame` and implements `ActionListener` to handle various user actions. Below is a brief overview of its components:
+
