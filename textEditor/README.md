@@ -69,14 +69,3 @@ The `actionPerformed` method handles the following actions:
 
 If you wish to contribute to the project, feel free to fork the repository and submit a pull request.
 
-## License
-
-This project is open-source and available under the MIT License.
-
-## Contact
-
-For any questions or suggestions, please open an issue in the repository.
-
----
-
-This `README.md` file provides all necessary information to understand, set up, and use the TextEditor application. Make sure to follow the instructions carefully to get the application up and running.
