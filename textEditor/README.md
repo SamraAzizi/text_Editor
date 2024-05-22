@@ -33,39 +33,3 @@ This is a simple text editor application built using Java Swing. It provides bas
 
     ```sh
     java texteditor.TextEditor
-    ```
-
-## File Structure
-
-The project contains a single Java file:
-
-- `TextEditor.java`: The main file containing the implementation of the text editor.
-
-## Code Explanation
-
-The `TextEditor` class extends `JFrame` and implements `ActionListener` to handle various user actions. Below is a brief overview of its components:
-
-- `JTextArea textArea`: The main text area where users can type and edit text.
-- `JScrollPane scrollPane`: A scroll pane to make the text area scrollable.
-- `JSpinner FontSizeSpinner`: A spinner to adjust the font size.
-- `JLabel fontLabel`: A label for the font size spinner.
-- `JButton fontButton`: A button to change the text color.
-- `JComboBox fontBox`: A combo box to select the font type.
-- `JMenuBar menuBar`: The menu bar containing file operations.
-- `JMenu menu`: The file menu containing menu items for file operations.
-- `JMenuItem openItem`, `saveItem`, `exitItem`: Menu items for opening, saving, and exiting the application.
-
-### Event Handling
-
-The `actionPerformed` method handles the following actions:
-
-- Change text color when `fontButton` is clicked.
-- Change font type when an item from `fontBox` is selected.
-- Open a file and display its content in `textArea` when `openItem` is clicked.
-- Save the content of `textArea` to a file when `saveItem` is clicked.
-- Exit the application when `exitItem` is clicked.
-
-## Contributing
-
-If you wish to contribute to the project, feel free to fork the repository and submit a pull request.
-
